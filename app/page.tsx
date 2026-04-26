@@ -36,7 +36,7 @@ export default function HomePage() {
           </a>
         </header>
 
-        {/* MIDDLE: QUOTE & VIEW MENU BUTTON */}
+   {/* MIDDLE: QUOTE & VIEW MENU BUTTON */}
         <main className="max-w-2xl mx-auto text-center space-y-8">
           <div className="space-y-4">
             <h2 
@@ -46,12 +46,13 @@ export default function HomePage() {
               Savor the <br /> 
               <span className="text-[#00A86B]">Perfect Crunch</span>
             </h2>
-           <p 
-  className="text-lg italic font-bold text-white max-w-md mx-auto"
-  style={{ filter: 'drop-shadow(0px 2px 5px rgba(0,0,0,1))' }}
->
-  &quot;Quality is our primary ingredient. Every bite tells a delicious story.&quot;
-</p>
+            <p 
+              className="text-lg italic font-bold text-white max-w-md mx-auto"
+              style={{ filter: 'drop-shadow(0px 2px 5px rgba(0,0,0,1))' }}
+            >
+              &quot;Quality is our primary ingredient. Every bite tells a delicious story.&quot;
+            </p>
+          </div> {/* <--- THIS WAS THE MISSING CLOSING TAG */}
 
           <Link href="/menu">
             <button className="bg-white text-[#013220] px-10 py-4 rounded-full font-black uppercase tracking-widest text-sm shadow-2xl hover:bg-[#00A86B] hover:text-white transition-all transform hover:scale-105 active:scale-95">
